@@ -18,7 +18,7 @@ nav {
 }
 
 li {
-  margin: 20px 30px  0 0;
+  margin: 20px 20px  0 0;
   display: inline;
   float: left;
   margin-left: 1px;
@@ -115,7 +115,7 @@ a:hover {
 /* ---- Main ---- */
 
 .main {
-  margin-top: 70px;
+  margin-top: 90px;
 }
 
 .google_logo {
@@ -166,13 +166,10 @@ a:hover {
   height: 18px;
 }
 
-#search-btn {
-  margin-right: 10px;
+.inline_2_buttons:hover {
+  box-shadow: 0.5px 1px 0.5px 0.5px #BBB;
 }
 
-#feel-lucky-btn {
-  margin-left: 10px;
-}
 .click-div {
   display: block;
   height: 100%;
@@ -184,8 +181,19 @@ a:hover {
   text-decoration: none;
 }
 
-.inline_2_buttons:hover {
-  box-shadow: 0.5px 1px 0.5px 0.5px #BBB;
+.under_2_buttons {
+  margin: auto;
+  padding-top:28px;
+  padding-left: 70px;
+  font-size: 13px;
+}
+
+#search-btn {
+  margin-right: 5px;
+}
+
+#feel-lucky-btn {
+  margin-left: 5px;
 }
 
 .center_content {
@@ -196,12 +204,6 @@ a:hover {
   width: 250px;
 }
 
-.under_2_buttons {
-  margin: auto;
-  padding-top:28px;
-  padding-left: 70px;
-  font-size: 13px;
-}
 .japanese {
   color: blue;
 }
@@ -210,7 +212,7 @@ a:hover {
 /* ---- Footer ---- */
 
 footer {
-  font-size: 12px;
+  font-size: 13px;
   position: fixed;
   padding-bottom: 14px;
   bottom:0;
@@ -240,5 +242,6 @@ footer li a{
 
 span {
   color: #A30000;
+  padding-right:3px;
 }
 
