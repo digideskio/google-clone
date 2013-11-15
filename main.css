@@ -4,6 +4,10 @@ html,body,div,span,applet,object,iframe,h1,h2,h3,h4,h5,h6,p,blockquote,pre,a,abb
 
 /* -------------------------------- */
 
+body {
+  font-family: arial,sans-serif;
+}
+
 /* ---- Header ---- */
 header {
   height: 100px;
@@ -17,25 +21,86 @@ li {
   margin: 20px 30px  0 0;
   display: inline;
   float: left;
-  margin-left: 5px;
+  margin-left: 1px;
 }
 
-td {
-  background-color: #666;
-  width: 4px;
-  height: 4.5px;
-  border: solid 2px #FFF;
+.nav_word {
+  font-size: 14px;
+  color: #444;
+}
+
+.apps {
+  background: url(google_icons.png) 141px 404px;
+  margin-top: -8px;
+  padding-top: 0;
+  display: block;
+  height: 25px;
+  width: 25px;
+}
+
+.apps:hover {
+  background: url(google_icons.png) 103px 440px;
+  margin-top: -8px;
+  padding-top: 0;
+  display: block;
+  height: 25px;
+  width: 25px;
+}
+
+.alert {
+  background: url(google_icons.png) 363px -2px;
+  margin-top: -8px;
+  padding-top: 0;
+  display: block;
+  height: 25px;
+  width: 25px;
+}
+
+.alert:hover {
+  background: url(google_icons.png) 0 0;
+  margin-top: -8px;
+  padding-top: 0;
+  display: block;
+  height: 25px;
+  width: 25px;
 }
 
 #share-box {
-  background-color: #EEE;
+  width:65px;
+  height:22px;
+  padding:8px 1px 1px 2px;
+  margin: 12px 1px;
+  background-color: #DEDEDE;
+  border-radius: 3px;
   text-align: center;
-  border-radius: 1px;
-  padding: 3px;
-  margin: 2px;
-  width: 50px;
-  height: 20px;
 }
+#share-box > a {
+  display: block;
+  width:100%;
+  height: 100%;
+}
+
+#share-box:hover {
+  background-color: #CDCDCD;
+}
+#share-box > a:hover {
+  text-decoration: none;
+  cursor: default;
+}
+
+
+
+
+.myPhoto {
+  background: url(https://lh4.googleusercontent.com/-38KaK5o4Wbs/AAAAAAAAAAI/AAAAAAAAAAA/sDeFgEyCECs/s30-c/photo.jpg) 0 0;
+  height: 30px;
+  width: 30px;
+  margin-top: -8px;
+  padding-top: 0;
+  display: block;
+}
+
+
 
 a {
   text-decoration: none;
@@ -45,18 +110,12 @@ a {
 a:hover {
   text-decoration: underline;
 }
-#share-box:hover {
-  background-color: #DDD;
-}
-#share-box > a:hover {
-  text-decoration: none;
-  cursor: default;
-}
+
 
 /* ---- Main ---- */
 
 .main {
-  margin-top: 100px;
+  margin-top: 70px;
 }
 
 .google_logo {
@@ -70,7 +129,7 @@ a:hover {
   display: block;
   padding-right: 35px;
   margin: auto;
-  width: 500px;
+  width: 520px;
 }
 
 .form_outline {
@@ -78,9 +137,12 @@ a:hover {
 }
 
 #search_field {
-  height: 27px;
-  width: 541px;
+  margin: auto;
+  height: 23px;
+  width: 550px;
   border: 1px solid rgba(0,0,0,.3);
+  background: url() no-repeat;
+  margin-bottom: 10px;
 }
 
 #submit {
@@ -94,48 +156,82 @@ a:hover {
 .inline_2_buttons {
   display: inline-block;
   font-size: 12px;
+  font-weight: bold; 
   text-align: center;
-  background-color: #DDD;
-  padding-top: 18px;
-  border-radius: 2px;
-  width: 111px;
-  height: 25px;
+  background-color: #EDEDED;
+  padding: 9px 3px 1px 3px;
+  border: 1px solid #DDD;
+  border-radius: 3px;
+  width: 105px;
+  height: 18px;
 }
 
-.feeling_lucky {
+.click-div {
+  display: block;
+  height: 100%;
+  width: 100%;
+  color: #656565; 
+}
 
+.click-div:hover {
+  text-decoration: none;
+}
+
+.inline_2_buttons:hover {
+  box-shadow: 0.5px 1px 0.5px 0.5px #BBB;
 }
 
 .center_content {
   margin: auto;
   clear: both;
   display: block;
-  margin-top: 10px;
+  margin-top: 0;
   width: 250px;
+}
+
+.under_2_buttons {
+  margin: auto;
+  padding-top:28px;
+  padding-left: 70px;
+  font-size: 13px;
+}
+.japanese {
+  color: blue;
 }
 
 
 /* ---- Footer ---- */
 
 footer {
+  font-size: 12px;
   position: fixed;
+  padding-bottom: 14px;
   bottom:0;
-  height: 40px;
+  height: 32px;
   width: 100%;
-  background-color: #DDD;
+  background-color: #EFEFEF;
 }
 
 footer > div {
   display: inline;
 }
 
-.left_footer > a  {
+.left_footer {
+  margin: 0 0 0 25px;
   float: left;
-  padding-top: 10px;
 }
 
 .right_footer  {
-  margin-left: 400px;
+  margin: 0 20px 0 0;
+  float: right;
 }
 
+footer li a{
+  font-family: sans-serif;;
+  color: #666;
+}
+
+span {
+  color: #A30000;
+}
 
