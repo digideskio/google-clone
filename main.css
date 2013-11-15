@@ -158,7 +158,6 @@ a:hover {
   font-size: 12px;
   font-weight: bold; 
   text-align: center;
-  margin: 0 10px 0 0;
   background-color: #EDEDED;
   padding: 9px 3px 1px 3px;
   border: 1px solid #DDD;
@@ -167,6 +166,13 @@ a:hover {
   height: 18px;
 }
 
+#search-btn {
+  margin-right: 10px;
+}
+
+#feel-lucky-btn {
+  margin-left: 10px;
+}
 .click-div {
   display: block;
   height: 100%;
